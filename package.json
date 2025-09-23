@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "deploy:tomcat": "npm run build && xcopy /s /e /h /y \".\\dist\" \"C:\\Program Files\\Apache Software Foundation\\Tomcat10.1\\webapps\\Echosofheart\\\""
+    "deploy:tomcat": "npm run build && xcopy /s /e /h /y \".\\dist\\*\" \"C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1_Tomcat10v\\webapps\\frontend-echosofheart\\\""
   },
   "dependencies": {
     "axios": "^1.12.2",
