@@ -1,0 +1,25 @@
+.virtual-space-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .virtual-space-frame {
+    width: 600vw;
+    height: 100vh; 
+    border: none;
+    margin-bottom: 40px;
+    
+  }
+  
+  body, html {
+    overflow: hidden; 
+  }
+
+  body {
+    overflow-y: hidden;
+    
+  }
+
+  body {
+    overflow-x: hidden;
+  }

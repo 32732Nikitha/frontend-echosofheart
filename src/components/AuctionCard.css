@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 150%;
+  background-color: #f4f4f4;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.auction-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  width: 210vh;
+}
+
+.auction-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.5rem;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.auction-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 22%;
+  min-width: 200px;
+  max-width: 250px;
+  box-sizing: border-box;
+  transition: transform 0.2s;
+}
+
+.auction-card:hover {
+  transform: translateY(-4px);
+}
+
+.auction-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.image-modal img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
